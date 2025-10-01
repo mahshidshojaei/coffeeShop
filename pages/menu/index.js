@@ -1,13 +1,7 @@
-import MenuSection from "@/components/Menu/MenuSection";
-import React from "react";
-import { useRouter } from "next/router";
+import React from 'react'
 
 export default function Menu() {
-  const route = useRouter();
   return (
-    <>
-      <h1 className='text-end p-2'>Home{route.pathname}</h1>
-      <MenuSection />
-    </>
-  );
+    <div>Menu</div>
+  )
 }
